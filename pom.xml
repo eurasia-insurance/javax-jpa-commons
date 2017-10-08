@@ -14,15 +14,20 @@
 
 	<name>Jave EE Lib : JPA commons</name>
 
+	<properties>
+		<!-- BOMS -->
+		<javax-javaee-bom.version>7.0-SNAPSHOT</javax-javaee-bom.version>
+	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<!-- BOMS -->
 			<dependency>
 				<groupId>tech.lapsa.javax</groupId>
 				<artifactId>javax-javaee-bom</artifactId>
-				<version>7.0-SNAPSHOT</version>
-				<type>pom</type>
+				<version>${javax-javaee-bom.version}</version>
 				<scope>import</scope>
+				<type>pom</type>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

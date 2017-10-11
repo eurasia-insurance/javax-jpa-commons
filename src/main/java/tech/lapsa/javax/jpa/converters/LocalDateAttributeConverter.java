@@ -1,4 +1,4 @@
-package com.lapsa.jpa.converters;
+package tech.lapsa.javax.jpa.converters;
 
 import java.sql.Date;
 import java.time.LocalDate;

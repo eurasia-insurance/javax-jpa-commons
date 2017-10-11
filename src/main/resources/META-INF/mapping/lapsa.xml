@@ -11,13 +11,13 @@
 		</persistence-unit-defaults>
 	</persistence-unit-metadata>
 
-	<converter class="com.lapsa.jpa.converters.LocalDateAttributeConverter"
+	<converter class="tech.lapsa.javax.jpa.converters.LocalDateAttributeConverter"
 		auto-apply="true" />
-	<converter class="com.lapsa.jpa.converters.LocalDateTimeAttributeConverter"
+	<converter class="tech.lapsa.javax.jpa.converters.LocalDateTimeAttributeConverter"
 		auto-apply="true" />
-	<converter class="com.lapsa.jpa.converters.LocalTimeAttributeConverter"
+	<converter class="tech.lapsa.javax.jpa.converters.LocalTimeAttributeConverter"
 		auto-apply="true" />
-	<converter class="com.lapsa.jpa.converters.InstantAttributeConverter"
+	<converter class="tech.lapsa.javax.jpa.converters.InstantAttributeConverter"
 		auto-apply="true" />
 
 </entity-mappings>

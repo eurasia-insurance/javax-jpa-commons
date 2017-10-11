@@ -1,4 +1,4 @@
-package com.lapsa.jpa.entity;
+package tech.lapsa.javax.jpa.entity;
 
 
 public class VersionEntity {

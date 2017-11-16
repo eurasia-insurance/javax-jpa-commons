@@ -11,11 +11,16 @@
 		</persistence-unit-defaults>
 	</persistence-unit-metadata>
 
-	<converter class="tech.lapsa.javax.jpa.converters.LocalDateAttributeConverter"
+	<converter class="tech.lapsa.javax.jpa.converters.CurrencyAttributeConverter"
 		auto-apply="true" />
-	<converter class="tech.lapsa.javax.jpa.converters.LocalDateTimeAttributeConverter"
+	<converter
+		class="tech.lapsa.javax.jpa.converters.LocalDateAttributeConverter"
 		auto-apply="true" />
-	<converter class="tech.lapsa.javax.jpa.converters.LocalTimeAttributeConverter"
+	<converter
+		class="tech.lapsa.javax.jpa.converters.LocalDateTimeAttributeConverter"
+		auto-apply="true" />
+	<converter
+		class="tech.lapsa.javax.jpa.converters.LocalTimeAttributeConverter"
 		auto-apply="true" />
 	<converter class="tech.lapsa.javax.jpa.converters.InstantAttributeConverter"
 		auto-apply="true" />

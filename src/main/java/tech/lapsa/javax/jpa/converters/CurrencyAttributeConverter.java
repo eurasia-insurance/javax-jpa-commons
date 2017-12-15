@@ -9,12 +9,12 @@ import javax.persistence.Converter;
 public class CurrencyAttributeConverter implements AttributeConverter<Currency, String> {
 
     @Override
-    public String convertToDatabaseColumn(Currency currency) {
+    public String convertToDatabaseColumn(final Currency currency) {
 	return currency == null ? null : currency.getCurrencyCode();
     }
 
     @Override
-    public Currency convertToEntityAttribute(String string) {
+    public Currency convertToEntityAttribute(final String string) {
 	return string == null ? null : Currency.getInstance(string);
     }
 

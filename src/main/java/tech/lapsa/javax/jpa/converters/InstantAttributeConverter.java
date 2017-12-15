@@ -10,12 +10,12 @@ import javax.persistence.Converter;
 public class InstantAttributeConverter implements AttributeConverter<Instant, Timestamp> {
 
     @Override
-    public Timestamp convertToDatabaseColumn(Instant instant) {
+    public Timestamp convertToDatabaseColumn(final Instant instant) {
 	return instant == null ? null : Timestamp.from(instant);
     }
 
     @Override
-    public Instant convertToEntityAttribute(Timestamp sqlTimestamp) {
+    public Instant convertToEntityAttribute(final Timestamp sqlTimestamp) {
 	return sqlTimestamp == null ? null : sqlTimestamp.toInstant();
     }
 

@@ -16,7 +16,7 @@
 
 	<properties>
 		<!-- BOMS -->
-		<javax-javaee-bom.version>7.0a-SNAPSHOT</javax-javaee-bom.version>
+		<javax-javaee-bom.version>7.0a</javax-javaee-bom.version>
 	</properties>
 
 	<dependencyManagement>
